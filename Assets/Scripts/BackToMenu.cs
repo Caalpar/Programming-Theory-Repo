@@ -11,4 +11,8 @@ public class BackToMenu : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void ClosePanel()
+    {
+        GameObject.Find("PanelText").transform.GetChild(0).gameObject.SetActive(false);
+    }
 }

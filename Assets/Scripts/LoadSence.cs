@@ -20,8 +20,10 @@ public class LoadSence : MonoBehaviour
             DontDestroyOnLoad(this);
         }
     }
-
+    // ENCAPSULATION SINGLETON PATRON
     public LoadSence Instance { get; private set; }
+
+    // ENCAPSULATION
     public string PlayerName { get; private set; }
 
 
